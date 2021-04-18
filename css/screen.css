@@ -13,6 +13,10 @@ h1 {
 	padding-bottom: 0.75em;
 }
 
+#contact h1 {
+	margin-left: 10%;
+}
+
 main p {
 	max-width: 75em;
 	margin-left: 1em;
@@ -46,11 +50,20 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+}
+
+form {
+	max-width: 80%;
+	margin: auto;
+	border: 1px solid black;
 }
 
 form li {
 	display: block;
+}
+
+form input, form textarea {
+	max-width: 80%;
 }
 
 header a img {

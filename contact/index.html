@@ -26,35 +26,31 @@
         </nav>
     </header>
 
-    <main id="upcoming">
-        <h4>Contact Us</h4>
+    <main id="contact">
+        <h1>Contact Us</h1>
 
         <form id="contactform" method="get" action="#null" onsubmit="return validateForm()">
-            <fieldset>
-                <div id="wrap">
-                    <ul class="inputs">
-                        <li>
-                            <label for="first">First Name:</label>
-                            <input type="text" id="first" name="first" required>
-                        </li>
-                        <li>
-                            <label for="last">Last Name:</label>
-                            <input type="text" id="last" name="last" required>
-                        </li>
-                        <li>
-                            <label for="email">Email Address:</label>
-                            <input type="email" id="email" name="email" required>
-                        </li>
-                        <li>
-                            <label for="reason">Issue:</label>
-                            <textarea id="reason" name="reason" rows="4" cols="50" required></textarea>
-                        </li>
-                        <li class="submit">
-                            <input type="submit" name="submit" id="submit" value="Submit" onsubmit="return clickEvent();" />
-                        </li>
-                    </ul>
-                </div>
-            </fieldset>
+            <ul class="inputs">
+                <li>
+                    <label for="first">First Name:</label>
+                    <input type="text" id="first" name="first" required>
+                </li>
+                <li>
+                    <label for="last">Last Name:</label>
+                    <input type="text" id="last" name="last" required>
+                </li>
+                <li>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </li>
+                <li>
+                    <label for="reason">Issue:</label>
+                    <textarea id="reason" name="reason" rows="4" cols="50" required></textarea>
+                </li>
+                <li class="submit">
+                    <input type="submit" name="submit" id="submit" value="Submit" onsubmit="return clickEvent();" />
+                </li>
+            </ul>
         </form>
 
     </main>
