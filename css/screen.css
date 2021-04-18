@@ -13,6 +13,10 @@ h1 {
 	padding-bottom: 0.75em;
 }
 
+#upcoming h1 {
+	margin-left: 10%;
+}
+
 main p {
 	max-width: 75em;
 	margin-left: 1em;
