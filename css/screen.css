@@ -54,6 +54,22 @@ form li {
 	display: block;
 }
 
+header a img {
+	width: 100%;
+}
+
 footer {
 	padding-top: 5em;
+}
+
+@media screen and (min-width: 600px) {
+	header a img {
+		width: 80%;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	header a img {
+		width: 50%;
+	}
 }
