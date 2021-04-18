@@ -37,10 +37,9 @@ li {
 	list-style-type: circle;
 }
 
-#questions li {
+#questions li, .events li {
 	display: block;
 	text-align: left;
-	
 }
 
 img {
