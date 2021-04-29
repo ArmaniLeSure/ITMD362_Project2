@@ -29,26 +29,15 @@
     <main id="contact">
         <h1>Contact Us</h1>
 
-        <form id="contactform" method="get" action="#null" onsubmit="return validateForm()" autocomplete="on">
+        <form id="CONTACT" method="get" action="#null" onsubmit="return validateForm()" autocomplete="on">
             <ul class="inputs">
-                <li>
-                    <label for="first">First Name:</label>
-                    <input type="text" id="first" name="first" required>
-                </li>
-                <li>
-                    <label for="last">Last Name:</label>
-                    <input type="text" id="last" name="last" required>
-                </li>
-                <li>
-                    <label for="email">Email Address:</label>
-                    <input type="email" id="email" name="email" required>
-                </li>
-                <li>
-                    <label for="reason">Issue:</label>
-                    <textarea id="reason" name="reason" rows="4" cols="50" required></textarea>
-                </li>
+                <li><label for="FName">First Name:</label><input type="text" id="FName" placeholder="please enter first name"></li>
+                <li><label for="LName">Last Name:</label><input type="text" id="LName" placeholder="Please enter last name"></li>    
+                <li><label for="Email">Email Address:</label><input type="email" id="Email" placeholder="Please enter email"></li>
+                <li><label for="Reason">Issue:</label><textarea id="Reason" rows="4" cols="50"></textarea></li>
+                    
                 <li class="submit">
-                    <input type="submit" name="submit" id="submit" value="Submit" onsubmit="return clickEvent();" />
+                    <input type="submit" name="submit" id="submit" value="Submit"/>
                 </li>
             </ul>
         </form>

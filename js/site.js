@@ -4,14 +4,14 @@ jQuery(function($){
 });
 
 function validateForm() {
-	var a = document.forms["ESPORTS"]["FullName"].value;
-	var b = document.forms[""][""].value;
-	var c = document.forms[""][""].value;
-	var d = document.forms[""][""].value;
-	if ((a == "") || (b == "")|| (c == "") || (d == "")){
+	var a = document.forms["CONTACT"]["FName"].value;
+	var b = document.forms["CONTACT"]["LName"].value;
+	var c = document.forms["CONTACT"]["Email"].value;
+	var d = document.forms["CONTACT"]["Reason"].value;
+	if ((a == "") || (b == "")|| (c == "")){
 		alert("Please fill in all sections.");
 	}
 	else{
-		alert("...!");
+		alert("Welcome to...!");
 	}
 }
