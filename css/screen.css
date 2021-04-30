@@ -30,7 +30,7 @@ nav {
 }
 
 span {
-    /* background-color: #447abb; */
+    background-color: #447abb; 
     display: inline-block;
     text-align: center;
     position: relative;
