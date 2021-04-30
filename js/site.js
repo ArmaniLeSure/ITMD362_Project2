@@ -3,6 +3,8 @@ jQuery(function($){
 	$('html').addClass('hasjs');
 });
 
+form.onsubmit = submit;
+
 function validateForm() {
 	var a = document.forms["CONTACT"]["FName"].value;
 	var b = document.forms["CONTACT"]["LName"].value;

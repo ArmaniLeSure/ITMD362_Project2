@@ -29,7 +29,7 @@ nav {
     font-family: 'Roboto', sans-serif;
 }
 
-li {
+span {
     /* background-color: #447abb; */
     display: inline-block;
     text-align: center;
