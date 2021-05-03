@@ -108,14 +108,17 @@ header a img {
 	height: 70px;
 }
 
-
+/* Good this is the minimum size of a website being resized on a desktop */
+/* Lets add to this */
 @media screen and (min-width: 600px) {
 	header a img {
 		width: 80%;
 	}
 }
 
-@media screen and (min-width: 1200px) {
+/* Edit this below, this is the minimum screen resolution of a mobile device */
+/* The smallest modern mobile device resolution I've seen is 640 x 360 */
+@media screen and (min-width: 640px) and (min-height: 360px) {
 	header a img {
 		width: 50%;
 	}
