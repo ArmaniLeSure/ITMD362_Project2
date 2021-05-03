@@ -82,18 +82,22 @@ img {
 }
 
 form {
-    max-width: 80%;
+    max-width: 90%;
     margin: auto;
     border: 1px solid black;
 }
 
-form li {
+form li, form label {
     display: block;
 }
 
-form input,
-form textarea {
-    max-width: 80%;
+form input, form textarea {
+	width: 95%;
+	margin-left: 0.25em;
+}
+
+.submit {
+	margin-left: 0.5em;
 }
 
 header a img {
@@ -115,10 +119,16 @@ header a img {
     header a img {
         width: 80%;
     }
+	form li {
+		margin-left: 0.5em;
+	}
 }
 
 @media screen and (min-width: 1200px) {
     header a img {
         width: 50%;
     }
+	form {
+		width: 50%;
+	}
 }
