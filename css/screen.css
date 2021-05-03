@@ -26,6 +26,8 @@ h1 {
 
 main {
     padding-top: 0.5em;
+    float: none;
+    display: block;
 }
 
 main p {
@@ -39,14 +41,29 @@ main p {
     margin: 0px auto;
     font-family: 'Roboto', sans-serif;
 } */
+
 #navbar {
     list-style-type: none;
-    text-align: center;
-    justify-content: center;
     padding: 0px;
     width: 100%;
     display: block;
     background: #F57627;
+    color: black;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 0.5em;
+}
+
+nav div span {
+    float: left
+}
+
+nav span a {
+    padding: 1em;
+    text-decoration: none;
+    text-align: center;
+    display: block;
     color: black;
 }
 
@@ -141,6 +158,9 @@ header a img {
 	form {
 		width: 80%;
 	}
+    nav {
+        max-width: 80%;
+    }
 }
 
 @media screen and (min-width: 1200px) {
