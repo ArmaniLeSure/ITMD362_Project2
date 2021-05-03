@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 
 html {
-    font-family: 'Merriweather';
+    font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
     background-color: #2F3BA9;
     padding: 1em;
 }
