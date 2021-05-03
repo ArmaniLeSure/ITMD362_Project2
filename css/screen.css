@@ -6,7 +6,7 @@ html {
     font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
     background-color: #2F3BA9;
     padding: 1em;
-	overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 body {
@@ -115,7 +115,8 @@ form {
     border: 1px solid black;
 }
 
-form li, form label {
+form li,
+form label {
     display: block;
 }
 
@@ -131,10 +132,10 @@ form textarea {
 }
 
 .inputs {
-	margin-top: 0.5em;
+    margin-top: 0.5em;
 }
 .submit {
-	margin: 0.5em;
+    margin: 0.5em;
 }
 
 header a img {
