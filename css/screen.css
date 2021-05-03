@@ -51,6 +51,10 @@ main p {
 	top: 0px;
 }
 
+a.nlink:hover {
+	background: #F5BD27;
+}
+
 /* span {
     background-color: #447abb; 
     display: inline-block;
