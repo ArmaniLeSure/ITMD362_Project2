@@ -1,3 +1,5 @@
+document.getElementById("submit").addEventListener("click", validateForm);
+
 jQuery(function($) {
     $('html').removeClass('nojs');
     $('html').addClass('hasjs');
