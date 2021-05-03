@@ -51,13 +51,13 @@ main p {
 	top: 0px;
 }
 
-span {
+/* span {
     background-color: #447abb; 
     display: inline-block;
     text-align: center;
     position: relative;
     padding: 12px 50px;
-}
+} */
 
 #questions {
 	list-style-type: circle;
