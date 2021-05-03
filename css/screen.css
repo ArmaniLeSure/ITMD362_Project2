@@ -26,12 +26,13 @@ main p {
 	margin-left: 1em;
 }
 
-nav {
+/* nav {
     width: 75%;
     text-align: center;
     margin: 0px auto;
     font-family: 'Roboto', sans-serif;
-}
+} */
+
 
 span {
     background-color: #447abb; 
