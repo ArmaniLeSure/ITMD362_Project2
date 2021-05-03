@@ -75,7 +75,11 @@ nav span a {
     top: 0px;
 }
 
-a.nlink:hover {
+nav a.current {
+    background: #EE5C01;
+}
+
+nav a:hover {
     background: #F5BD27;
 }
 
