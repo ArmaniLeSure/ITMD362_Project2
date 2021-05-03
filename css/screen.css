@@ -97,9 +97,16 @@ header a img {
 	width: 100%;
 }
 
-footer {
-	padding-top: 5em;
+#footer {
+	position: fixed;
+	bottom: 0px;
+	text-align: center;
+	display: block;
+	width: 100%;
+	background: #F57627;
+	height: 70px;
 }
+
 
 @media screen and (min-width: 600px) {
 	header a img {
