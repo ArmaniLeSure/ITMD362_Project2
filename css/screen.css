@@ -24,7 +24,7 @@ h1 {
     margin-left: 10%;
 }
 
-header {
+main {
     padding-top: 0.5em;
 }
 
@@ -116,11 +116,16 @@ header a img {
 #footer {
     position: fixed;
     bottom: 0px;
+    left: 0px;
     text-align: center;
     display: block;
     width: 100%;
     background: #F57627;
     height: 70px;
+}
+
+#footer p {
+    margin-top: 2%;
 }
 
 @media screen and (min-width: 600px) {
