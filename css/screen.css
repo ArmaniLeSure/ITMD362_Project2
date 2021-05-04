@@ -189,4 +189,9 @@ header a img {
     nav {
         width: 60%;
     }
+
+@media screen and (min-width: 640px) and (min-height: 360px) {
+	header a img {
+		width: 50%;
+	}
 }
