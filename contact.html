@@ -1,59 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <title>The International Society</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=none" />
+        <link rel="stylesheet" type="text/css" href="css/meyersreset-and-normalize-form.css">
+        <link rel="stylesheet" type="text/css" href="css/screen.css">
+        <script src="js/site.js" async></script>
+    </head>
 
-<head>
-    <title>The International Society</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=none" />
-    <link rel="stylesheet" type="text/css" href="css/meyersreset-and-normalize-form.css">
-    <link rel="stylesheet" type="text/css" href="css/screen.css">
-	<script src="js/site.js" async></script> 
-</head>
+    <body>
+        <header id="navcontent">
+            <a href="">
+                <img src="images/logo.jpg" class="t-logo" alt="Our Organizational Logo depicting hands holding up a globe. ">
+            </a>
+            <nav id="navbar">
+                <div class="navigation">
+                    <span><a href="index.html">Home</a></span>
+                    <span><a href="about.html">About Us</a></span>
+                    <span><a href="events.html">Events</a></span>
+                    <span><a class="current" href="#">Contact Us </a></span>
+                </div>
+            </nav>
+        </header>
 
-<body>
-    <header id="navcontent">
-        <a href="">
-            <img src="images/logo.jpg" class="t-logo" alt="Our Organizational Logo depicting hands holding up a globe. ">
-        </a>
-        <nav id="navbar">
-			<div class="navigation">
-			<span><a class="nlink" href="index.html">Home</a></span>
-            <span><a class="nlink" href="about.html">About Us</a></span>
-            <span><a class="nlink" href="events.html">ISUD Announcements and Events</a></span>
-            <span><a class="nlink" href="#">Contact Us </a></span>
-			<!-- <ul id="navbar">
-				<li><a class="nlink" href="index.html" >Home</a></li>
-				<li><a class="nlink" href="about.html" >About Us</a></li>
-				<li><a class="nlink" href="events.html" >ISUD Announcements and Events</a></li>
-				<li><a class="nlink" href="contact.html" >Contact Us</a></li>
-			</ul> -->
-			</div>
-		</nav>
-    </header>
+        <main id="contact">
+            <h1>Contact Us</h1>
+            <form id="CONTACT" method="get" action="#null" autocomplete="on">
+                <ul class="inputs">
+                    <li><label for="FName">First Name:</label><input type="text" id="FName" placeholder="John"></li>
+                    <li><label for="LName">Last Name:</label><input type="text" id="LName" placeholder="Smith"></li>
+                    <li><label for="Email">Email Address:</label><input type="email" id="Email" placeholder="smith@example.com"></li>
+                    <li><label for="Reason">Issue:</label><textarea id="Reason" rows="4" cols="50"></textarea></li>
 
-    <main id="contact">
-        <h1>Contact Us</h1>
+                    <li class="submit">
+                        <input id="submit" type="submit" value="Confirm" />
+                    </li>
+                </ul>
+            </form>
+        </main>
 
-        <form id="CONTACT" method="get" action="#null" onsubmit="return validateForm()" autocomplete="on">
-            <ul class="inputs">
-                <li><label for="FName">First Name:</label><input type="text" id="FName" placeholder="please enter first name"></li>
-                <li><label for="LName">Last Name:</label><input type="text" id="LName" placeholder="Please enter last name"></li>    
-                <li><label for="Email">Email Address:</label><input type="email" id="Email" placeholder="Please enter email"></li>
-                <li><label for="Reason">Issue:</label><textarea id="Reason" rows="4" cols="50"></textarea></li>
-                    
-                <li class="submit">
-					<input type="submit" value="Confirm" onsubmit="return clickEvent();"/>
-				</li>
-
-            </ul>
-        </form>
-
-    </main>
-
-    <footer id="footer">
-        <p>Site &#169; International Society for Universal Dialogue | All Rights Reserved</p>
-    </footer>
-
-</body>
-
+        <footer id="footer">
+            <p>Site &#169; International Society for Universal Dialogue | All Rights Reserved</p>
+        </footer>
+    </body>
 </html>
